@@ -46,6 +46,6 @@ def search_book(request):
 
     ]
 
-    return JsonResponse({"data":data},status=200)
+    return JsonResponse({"data": data},status=200)
 
 
